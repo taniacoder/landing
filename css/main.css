@@ -1,0 +1,95 @@
+/*header*/
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+.logo {
+	width: 200px;
+}
+header {
+	padding-top: 1%;
+}
+header .nav {
+	float: right;
+
+}
+header ul li {
+	display: inline-block;
+	
+}
+header ul li  a {
+	list-style: none;
+	text-decoration: none;
+	margin-left: 20px;
+	color: #9A9A9A;
+
+}
+/*main*/
+.bg-gris {
+	background-color: #808080;
+	padding: 3% 0 3% 0;
+	color: white;
+}
+h2 {
+	font-size: 3em;
+	font-family: Arial;
+	padding-bottom: 3%;
+}
+.box-gris {
+	background-color: #9A9A9A;
+	border-radius: 13px;
+	float: right;
+	width: 60%;
+	height: 90%;
+	padding: 5% 3%;
+	text-align: center;
+	margin-top: 3%;
+}
+h5 {
+	margin-bottom: 3%;
+}
+input {
+	margin-bottom: 3%;
+	padding: 2%;
+	width: 100%;
+}
+.box-gris a {
+	  background:#3EB0F7;
+	  color:#fff;
+	  display:inline-block;
+	  font-size:1em;
+	  padding: 2% 28%;
+	  text-align:center;
+	  text-decoration: none !important;
+	  width: 100%;
+}
+.foot {
+	color: #9A9A9A;
+	margin-top: 2%;
+}
+@media screen and (min-width: 320px) and (max-width: 667px) {
+	
+	.box-gris {
+		width: 100%;
+	}
+	.col-5 {
+		width: 100%;
+	}
+	.col-7 {
+		width: 100%;
+	}
+	.container {
+		width: 100%;
+	}
+	.col-9 {
+			width: 33.666667%;
+
+	}
+	.col-9 img {
+		width: 100%;
+	}
+	.col-3 {
+		width: 60%;
+	}
+}
